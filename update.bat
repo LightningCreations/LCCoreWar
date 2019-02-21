@@ -3,4 +3,4 @@ git add -A .
 git commit
 git pull
 git push
-echo FUN FUN FUN
+echo Now it's my turn... mwahahahaha
