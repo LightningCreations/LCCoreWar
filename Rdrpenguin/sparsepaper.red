@@ -13,6 +13,4 @@ START	MOV.I	}-1, >-1
 	SPL	>-6
 	SUB.AB	#10, -7
 	JMP	-7
-	FOR 23
 	END
-	ROF
