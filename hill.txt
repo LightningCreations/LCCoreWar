@@ -1,0 +1,3 @@
+dummies/boring3.red
+Rdrpenguin/splitstone.red Rdrpenguin/rock.red
+dummies/boring.red MatthewJ217/simple_stoner.red MatthewJ217/executor_ii.red dummies/idiot_stone.red
