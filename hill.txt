@@ -1,4 +1,4 @@
 MatthewJ217/simple_vamp.red
-Rdrpenguin/sparsepaper.red dummies/boring3.red
+Rdrpenguin/sparsepaper.red Rdrpenguin/boring3.red
 Rdrpenguin/splitstone.red MatthewJ217/simple_stoner.red MatthewJ217/executor_ii.red Rdrpenguin/rock.red
-dummies/boring.red MatthewJ217/lightning_stoner.red dummies/executor.red MatthewJ217/laser_scanner.red dummies/boring2.red MatthewJ217/potato_paster.red dummies/idiot_stone.red dummies/useless.red
+Rdrpenguin/boring.red MatthewJ217/lightning_stoner.red MatthewJ217/executor.red MatthewJ217/laser_scanner.red Rerpanguin/boring2.red MatthewJ217/potato_paster.red MatthewJ217/idiot_stone.red Rdrpenguin/useless.red
