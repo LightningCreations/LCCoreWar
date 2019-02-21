@@ -1,11 +1,13 @@
 @echo off
+color 0f
 git add -A .
+color 08
 git commit
+color 0a
 git pull
+color 0b
 git push
-echo MEEEEEEP
+color 09
+echo Done.
 pause
-echo MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP
-pause
-echo meep
-pause
+::Jack stuff here!
