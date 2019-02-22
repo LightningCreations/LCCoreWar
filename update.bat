@@ -10,4 +10,5 @@ git push
 color 09
 echo Done.
 pause
+color 0a
 ::Jack stuff here!
