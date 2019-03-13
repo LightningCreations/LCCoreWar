@@ -1,0 +1,50 @@
+;redcode-94
+;name		Combine
+;author		Ray Redondo
+;strategy	Combine my previous best compatible programs into something better (maybe)
+
+	ORG BEGIN
+
+BEGIN	SPL STARTSP
+	JMP SCANNER
+	DAT	-1, 3000
+		
+STARTSP	MOV.I	}-1, >-1
+	SEQ.A	#8, -2
+	JMP	-2
+	SUB.A	#8, -4
+	SUB.AB	#7, -5
+	SPL	>-6
+	SUB.AB	#10, -7
+	JMP	-7
+	
+	DAT 0, 0	; Empty
+		
+BOMB1	SPL BEGIN, -4
+BOMB2	SPL -1, 1
+BOMB3	DAT 0, 0
+
+SCANNER	CMP -4, @BOMB1
+	JMP CHECKER
+	SUB #9, BOMB1
+	JMP SCANNER
+
+CHECKER	SLT #0, BOMB1
+	ADD #8000, BOMB1
+	SLT #32, BOMB1
+	JMP -5
+
+BOMBER	MOV BOMB3, <BOMB1
+	MOV BOMB2, <BOMB1
+	MOV BOMB1, <BOMB1
+	MOV.B BOMB1, BOMB2
+
+KILLER	SNE 8, <BOMB1
+	JMP KILLER2
+	MOV BOMB3, @BOMB1
+	JMP KILLER
+
+KILLER2	SNE 4, @BOMB2
+	JMP SCANNER
+	MOV BOMB3, >BOMB2
+	JMP KILLER2
