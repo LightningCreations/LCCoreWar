@@ -1,0 +1,6 @@
+{
+  "repository": "github:LightningCreations/LCCoreWar",
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  }
+}
