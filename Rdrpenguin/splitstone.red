@@ -5,7 +5,8 @@
 ;strategy       2. BOMB them repeatedly (paper)
 ;strategy       3. Kill the rest of the code (stone)
 ;strategy       4. If we haven't won, loop.
-;assert         CORESIZE == 8000
+
+;assert CORESIZE == 8000
 
         ORG SCANNER
 
