@@ -1,3 +1,7 @@
+bosses/flashpaper.red
+bosses/rave.red
+bosses/aeka.red
+bosses/silkwarrior13.red
 MatthewJ217/simple_stoner.red
 MatthewJ217/lightning_stoner.red
 MatthewJ217/double_scanner_prototype.red
