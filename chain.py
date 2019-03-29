@@ -35,7 +35,7 @@ def runRound(warrior):
             scores[enemyIndex] += wins*3+ties
 
         termsize, _ = os.get_terminal_size(0)
-        print(("\033[2FProgress: %6.2f%%\n" % (enemyIndex/totalNum*100)) + ('#' * int(round(enemyIndex/totalNum*termsize)) + '.' * int(round((1-enemyIndex/totalNum)*termsize))))
+        print(("\033[2FProgress: %6.2f%%\n" % (enemyIndex/totalNum*100)) + ('#' * int(round(enemyIndex/totalNum*termsize)) + '.' * int(termsize-round(enemyIndex/totalNum*termsize))))
     termsize, _ = os.get_terminal_size(0)
     print("\033[2FProgress: 100.00%\n" + ('#'*termsize))
 
