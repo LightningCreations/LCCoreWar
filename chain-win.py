@@ -103,9 +103,9 @@ for warrior in warriors:
     chain = [x for _,x in tmp]
     printScores()
 
-print("Writing final scores to file...\033[K")
+print("Writing final scores to file...")
 
 with open('scores.txt', 'w') as f:
     writeScores(f)
 
-print("\033[FWriting final scores to file... Done!" + '\n' * (len(chain)+2))
+print("Done!")
