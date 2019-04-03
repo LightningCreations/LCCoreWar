@@ -17,7 +17,7 @@ if(!currentHill){
 var i = currentHill.length;
 function playRound(i){
 	cmd.get(
-        '..\\pmarsw -r 250 .\\' + currentHill[i] + ' .\\' + currentHill[i-1],
+        '..\\pmarsw -r 250 -v 000 .\\' + currentHill[i] + ' .\\' + currentHill[i-1],
         function(err, data, stderr){
 	if(err){console.log(err)};
 	if(stderr){console.log(err)};
