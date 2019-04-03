@@ -10,6 +10,7 @@ MatthewJ217/laser_scanner.red
 MatthewJ217/executor.red
 MatthewJ217/imp_launcher.red
 MatthewJ217/micro_executor.red
+MatthewJ217/super_scanner.red
 MatthewJ217/rock_paper.red
 MatthewJ217/micro_stoner.red
 MatthewJ217/executor_ii.red
