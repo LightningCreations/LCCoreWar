@@ -3,7 +3,7 @@ console.log("Launched");
 const cmd = require('node-cmd');
 const fs = require('fs');
 var currentHill;
-fs.readFile('chain.txt', async (err, data) => {
+fs.readFile('.\\chain.txt', async (err, data) => {
 	currentHill = await data;
 })
 setTimeout(() => {
@@ -17,7 +17,7 @@ if(!currentHill){
 var i = currentHill.length;
 function playRound(i){
 	cmd.get(
-        '../pmarsw -v 000 -r 250 ' + currentHill[i] + ' ' + currentHill[i-1],
+        '..\\pmarsw -r 250 -v 000 .\\' + currentHill[i] + ' .\\' + currentHill[i-1],
         function(err, data, stderr){
 	if(err){console.log(err)};
 	if(stderr){console.log(err)};
@@ -43,11 +43,10 @@ function playRound(i){
 if(i>0){
 	playRound(i-1);
 }else{
-	fs.writeFile('chain.txt', currentHill.join(" "), function (err){
+	fs.writeFile('.\\chain.txt', currentHill.join(" "), function (err){
 		if (err) console.log(err);
 });
-	cmd.run("git add chain.txt && git push");
-	cmd.run("notepad chain.txt");
+	cmd.run("git add chain.txt && git push && notepad chain.txt");
 	console.log("Finished");
 }
     });
