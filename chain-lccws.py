@@ -34,6 +34,11 @@ def runRound(warrior):
             scores[warriorIndex] += losses*3+ties
             scores[enemyIndex] += wins*3+ties
 
+        termsize = 80
+        print(("Progress: %6.2f%%" % (enemyIndex/totalNum*100)) + '&' * 4000 + "\n" + ('#' * int(round(enemyIndex/totalNum*termsize)) + '.' * int(termsize-round(enemyIndex/totalNum*termsize))))
+    termsize = 80
+    print("Progress: 100.00%" + '&' * 4000 + "\n" + ('#'*termsize))
+
 def printScores():
     maxNameLen = 1
     maxScoreLen = 1
@@ -47,7 +52,7 @@ def printScores():
 
     for name, score in zip(chain, scores):
         score = str(score)
-        print(name + ' ' * ((maxNameLen-len(name)) + (maxScoreLen - len(score))) + score)
+        print(name + ' ' * ((maxNameLen-len(name)) + (maxScoreLen - len(score))) + score + '&' * 4000)
 
 def writeScores(f):
     maxNameLen = 1
@@ -82,8 +87,7 @@ with open('warriors.txt', 'r') as f:
         dataI+=1
 
 for warrior in warriors:
-    print("Adding " + warrior + " to the hill...\n")
-    print("Progress: \n")
+    print("Adding " + warrior + " to the hill...")
     runRound(warrior)
     tmp = sorted(zip(scores, chain), reverse = True)
     scores = [x for x,_ in tmp]
