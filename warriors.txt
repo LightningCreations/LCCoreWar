@@ -27,6 +27,7 @@ MatthewJ217/laser_scanner.red
 MatthewJ217/potato_paster.red
 MatthewJ217/executor.red
 MatthewJ217/simple_stoner.red
+Rdrpenguin/speedy-rock-paper.red
 Rdrpenguin/epicFrazzer.red
 Rdrpenguin/boring3.red
 Rdrpenguin/rock.red
@@ -37,6 +38,7 @@ Rdrpenguin/uselessSpawner.red
 Rdrpenguin/potato.red
 Rdrpenguin/boringKiller4.red
 Rdrpenguin/test.red
+Rdrpenguin/rock-paper-but-better.red
 Rdrpenguin/useless.red
 Rdrpenguin/boringKiller.red
 Rdrpenguin/mini-executor2.red
@@ -45,6 +47,8 @@ Rdrpenguin/paperSpawner.red
 Rdrpenguin/boring2.red
 Rdrpenguin/sparsepaper.red
 Rdrpenguin/boring.red
+Rdrpenguin/gooder-rock-paper.red
+Rdrpenguin/rock-paper-but-even-better.red
 Rdrpenguin/mini-executor.red
 Rdrpenguin/boringKiller3.red
 Rdrpenguin/epicFrazzer2.red
