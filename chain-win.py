@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def isWS(char):
-    return char == ' ' or char == '\r' or char == '\n' or char == '\t'
+    return char == '\r' or char == '\n'
 
 chain = []
 scores = []

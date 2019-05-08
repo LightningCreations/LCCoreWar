@@ -1,5 +1,8 @@
 bosses/silkwarrior13.red
+bosses/transposition_stone.red
+bosses/Looping Paper.red
 bosses/rave.red
+bosses/blur_scanner.red
 bosses/aeka.red
 bosses/flashpaper.red
 cmartin/program1.red
@@ -18,10 +21,13 @@ MatthewJ217/imp_launcher.red
 MatthewJ217/super_scanner.red
 MatthewJ217/micro_stoner.red
 MatthewJ217/simple_vamp.red
+MatthewJ217/clock_demo.red
+MatthewJ217/rock_clock.red
 MatthewJ217/laser_scanner.red
 MatthewJ217/potato_paster.red
 MatthewJ217/executor.red
 MatthewJ217/simple_stoner.red
+Rdrpenguin/epicFrazzer.red
 Rdrpenguin/boring3.red
 Rdrpenguin/rock.red
 Rdrpenguin/boringKiller2.red
@@ -29,12 +35,16 @@ Rdrpenguin/splitstone.red
 Rdrpenguin/uselessKiller.red
 Rdrpenguin/uselessSpawner.red
 Rdrpenguin/potato.red
+Rdrpenguin/boringKiller4.red
 Rdrpenguin/test.red
 Rdrpenguin/useless.red
 Rdrpenguin/boringKiller.red
+Rdrpenguin/mini-executor2.red
 Rdrpenguin/combine.red
 Rdrpenguin/paperSpawner.red
 Rdrpenguin/boring2.red
 Rdrpenguin/sparsepaper.red
 Rdrpenguin/boring.red
+Rdrpenguin/mini-executor.red
 Rdrpenguin/boringKiller3.red
+Rdrpenguin/epicFrazzer2.red
