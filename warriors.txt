@@ -1,6 +1,7 @@
 bosses/silkwarrior13.red
 bosses/transposition_stone.red
 bosses/Looping Paper.red
+bosses/self-vamping_vampire.red
 bosses/rave.red
 bosses/blur_scanner.red
 bosses/aeka.red
@@ -8,6 +9,7 @@ bosses/flashpaper.red
 cmartin/program1.red
 malinon/malinon2.red
 malinon/malinon1.red
+malinon/malinon4.red
 malinon/malinon3.red
 MatthewJ217/executor_ii.red
 MatthewJ217/rock_paper.red
@@ -20,8 +22,10 @@ MatthewJ217/micro_frazzer.red
 MatthewJ217/imp_launcher.red
 MatthewJ217/super_scanner.red
 MatthewJ217/micro_stoner.red
+MatthewJ217/Stoner vamp.red
 MatthewJ217/simple_vamp.red
 MatthewJ217/clock_demo.red
+MatthewJ217/armada.red
 MatthewJ217/rock_clock.red
 MatthewJ217/laser_scanner.red
 MatthewJ217/potato_paster.red
@@ -29,6 +33,7 @@ MatthewJ217/executor.red
 MatthewJ217/simple_stoner.red
 Rdrpenguin/speedy-rock-paper.red
 Rdrpenguin/epicFrazzer.red
+Rdrpenguin/stall-machine-2.red
 Rdrpenguin/boring3.red
 Rdrpenguin/rock.red
 Rdrpenguin/boringKiller2.red
@@ -37,6 +42,7 @@ Rdrpenguin/uselessKiller.red
 Rdrpenguin/uselessSpawner.red
 Rdrpenguin/potato.red
 Rdrpenguin/boringKiller4.red
+Rdrpenguin/stall-machine.red
 Rdrpenguin/test.red
 Rdrpenguin/rock-paper-but-better.red
 Rdrpenguin/useless.red
