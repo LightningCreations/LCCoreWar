@@ -11,4 +11,4 @@ color 09
 echo Done.
 pause
 color 0a
-::Jack stuff here!
+::Please don't jack this one

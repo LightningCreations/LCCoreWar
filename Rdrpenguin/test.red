@@ -1,4 +1,4 @@
 ;redcode-94
-
-jmp 1
-jmp -1
+spl 0
+spl -1
+mov 0, 1
