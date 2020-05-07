@@ -34,10 +34,10 @@ Rdrpenguin/potato.red
 Rdrpenguin/boringKiller.red
 Rdrpenguin/stall-armada.red
 Rdrpenguin/stall-machine-2.red
-Rdrpenguin/test.red
 Rdrpenguin/rock.red
 Rdrpenguin/frazzFast.red
 Rdrpenguin/boringKiller2.red
+Rdrpenguin/derivativePaper.red
 Rdrpenguin/sparsepaper.red
 Rdrpenguin/boring2.red
 Rdrpenguin/boring.red
