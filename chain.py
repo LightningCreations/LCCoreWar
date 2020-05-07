@@ -17,7 +17,7 @@ def runRound(warrior):
         enemyIndex+=1;
         if warrior == enemy:
             continue
-        result = subprocess.run(["../pmarsw", "-v", "000", "-r", "250", enemy, warrior], stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode()
+        result = subprocess.run(["../pmarsw", "-r", "250", enemy, warrior], stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode()
         result = result.split('\n')
         for line in result:
             if "Results:" in line:
